@@ -1,11 +1,11 @@
-![phaser3-parceljs-template](https://user-images.githubusercontent.com/2236153/71606463-37a0da80-2b2e-11ea-9b5f-5d26ccc84f91.png)
-
-# Phaser 3 + TypeScript + Parcel Template
+# Phaser 3 Multiplayer (Phaser + TypeScript + Parcel Template + Colyseus )
 > For people who want to spend time making Phaser 3 games in TypeScript instead of configuring build tools.
 
 ![License](https://img.shields.io/badge/license-MIT-green)
 
-This is a TypeScript specific fork of [phaser3-parcel-template](https://github.com/ourcade/phaser3-parcel-template).
+This is a fork of [phaser3-typescript-parcel-template](https://github.com/ourcade/phaser3-typescript-parcel-template) so that I don't have to re-create the wheel each time I want to work on a mulitplayer game. 
+
+
 
 ## Prerequisites
 
@@ -36,19 +36,19 @@ npm install -g parcel-bundler
 Clone this repository to your local machine:
 
 ```bash
-git clone https://github.com/ourcade/phaser3-typescript-parcel-template.git
+git clone https://github.com/csshelton70/PhaserTypescriptParcelMulti.git
 ```
 
 This will create a folder named `phaser3-typescript-parcel-template`. You can specify a different folder name like this:
 
 ```bash
-git clone https://github.com/ourcade/phaser3-typescript-parcel-template.git my-folder-name
+git clone https://github.com/csshelton70/PhaserTypescriptParcelMulti my-folder-name
 ```
 
 Go into your new project folder and install dependencies:
 
 ```bash
-cd phaser3-typescript-parcel-template # or 'my-folder-name'
+cd [my-folder-name]
 npm install
 ```
 
@@ -89,7 +89,7 @@ TypeScript files are intended for the `src` folder. `main.ts` is the entry point
 
 Other than that there is no opinion on how you should structure your project. There is a `scenes` folder in `src` where the `HelloWorldScene.ts` lives but you can do whatever you want.
 
-## Static Assets
+## Static Assets ( This need to be rewritten once the multi-player parts have been added )
 
 Any static assets like images or audio files should be placed in the `public` folder. It'll then be served at http://localhost:8000/images/my-image.png
 
@@ -133,4 +133,4 @@ Change 8000 to whatever you want.
 
 ## License
 
-[MIT License](https://github.com/ourcade/phaser3-typescript-parcel-template/blob/master/LICENSE)
+MIT License
