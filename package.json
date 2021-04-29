@@ -34,9 +34,11 @@
 		"@colyseus/monitor": "^0.14.0",
 		"@colyseus/social": "^0.10.9",
 		"colyseus": "^0.14.0",
+		"colyseus.js": "^0.14.12",
 		"cors": "^2.8.5",
 		"express": "^4.16.4",
-		"phaser": "^3.50.1"
+		"phaser": "^3.50.1",
+		"regenerator-runtime": "^0.13.7"
 	},
 	"parcelCleanPaths": [
 		"dist"
