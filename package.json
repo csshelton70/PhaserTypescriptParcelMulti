@@ -13,9 +13,9 @@
 	"license": "MIT",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/ourcade/phaser3-parcel-template.git"
+		"url": "https://github.com/csshelton70/PhaserTypescriptParcelMulti.git"
 	},
-	"homepage": "https://github.com/ourcade/phaser3-parcel-template",
+	"homepage": "https://github.com/csshelton70/PhaserTypescriptParcelMulti",
 	"devDependencies": {
 		"@types/cors": "^2.8.6",
 		"@types/express": "^4.17.1",
@@ -44,7 +44,7 @@
 		"dist"
 	],
 	"staticFiles": {
-		"staticPath": "public",
+		"staticPath": "src/client/public",
 		"watcherGlob": "**"
 	}
 }

@@ -13,9 +13,11 @@
 		"esModuleInterop": true,
 		"allowSyntheticDefaultImports": true,
 		"sourceMap": true,
-		"baseUrl": "./src",
+		"baseUrl": "./src/client",
 		"paths": {
-		  "~/*": ["./*"]
+			"~/*": [
+				"./*"
+			]
 		},
 		"typeRoots": [
 			"node_modules/@types",
