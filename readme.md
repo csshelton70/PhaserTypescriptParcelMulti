@@ -3,7 +3,8 @@
 
 ![License](https://img.shields.io/badge/license-MIT-green)
 
-This is a fork of [phaser3-typescript-parcel-template](https://github.com/ourcade/phaser3-typescript-parcel-template) so that I don't have to re-create the wheel each time I want to work on a mulitplayer game. 
+This is a copy of [phaser3-typescript-parcel-template](https://github.com/ourcade/phaser3-typescript-parcel-template) so that I don't have to re-create the wheel each time I want to work on a mulitplayer game with the same packages.  I'm Implemented the 
+code changes shown in first 25 minutes of [SuperTommy's Video on Multiplayer Game Server Project Setup with Colyseus & Phaser 3](https://www.youtube.com/watch?v=x-bbflZvuXE).  It's enough to confirm connectivity between the client and server. 
 
 
 
