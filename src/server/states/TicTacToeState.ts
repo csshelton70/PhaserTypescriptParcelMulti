@@ -1,9 +1,28 @@
-import { Schema, type } from '@colyseus/schema'
+import { Schema, ArraySchema, type } from '@colyseus/schema'
+import ITicTacToeState from '../../types/ITicTacToeState'
 
-
-export default class TicTacToeState extends Schema
+export default class TicTacToeState
+    extends Schema
+    implements ITicTacToeState
 {
-    @type('string')
-    name = 'ttt-state'
+    @type([ 'number' ])
+    board: ArraySchema<number>
+
+    @type('number')
+    activePlayer: number
+
+    constructor()
+    {
+        super();
+
+        this.board = new ArraySchema(
+            0, 0, 0,
+            0, 0, 0,
+            0, 0, 0
+        )
+
+        this.activePlayer = 0;
+    }
+
 
 }
